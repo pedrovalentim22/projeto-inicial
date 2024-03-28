@@ -3,52 +3,38 @@
 <!--
 Uma definição de tipo de documento (inglês: document type definition, DTD) é um conjunto de declarações de marcação.
 -->
- 
-<HTML lag ="pt-br">
-    <!-- Primeiro filho do HTML. -->
-    <head>
-        <meta charset= "UTH -8"/>
-        <meta name="viewport" content="width:device-width,initrial-scale=1.0"/>
-        <title>Página Básica</title>
-    </head>
-    <body>
-        <h1>Exemplos de TAGS</h1>
- 
-        <h2>Analisando tags de boco e linha</h2>
- 
-        <span style = "border: solid 2px #ff0000 ">Eusou uma tag de linha...</span>
- 
-        <div style = "border: solid 2px #0000ff">Eusou uma tag de bloco...</div>
- 
-        <div class ="container"> 
 
-            <hearder class="cabecalho"> 
+<html lang="pt-br"> 
+	<!-- primeiro filho do html. -->
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width:device-width,initial-scale=1.0"/>
+		<title>Página Básica</title>
 
-            <h1 style ="text-align: center;front-family: Tahoma, verdana, sans-serif;
-            ">Minha Página</h1>
+		<link rel="stylesheet" href="./css/estilo.css">
 
-            <nav class="menu">
-                <ul>
-                    <li><a href="./páginas/help.html">  <img src="./img/help.png" alt="Circulo com uma interrogação" 
-                        width="5%"> </a></li>
+	</head>
+	<body>      
 
-                    <li><a href="./páginas/contact.htm"> <img src="./img/contact.png" alt="Circulo com uma telefone " 
-                    width="5%"  </a> </li>
+		<div id ="container">
 
+			<header id="cabecalho">
+				<h1>Minha Página</h1>
+				
+				<nav id="menu">
+					<ul>
+						<li class="link"><a href="./páginas/help.html"> <img src="./img/help.png" alt="Interogação em um circulo."></a></li>
+						<li class="link"><a href="./páginas/about.html"><img src="./img/about.png" alt="Letra i em um circulo."></a></li>
+						<li class="link"><a href="./páginas/contact.htm"><img src="./img/contact.png" alt="Lapis escrevendo em um balão."></a></li>
+					</ul>
+				</nav>
 
-                    <li><a href="./páginas/about.html"> <img src="./img/about.png" alt="Circulo com uma exclamação" 
-                    width="5%" </a></li>
+			</header>
 
-
-                </ul>
-            </nav>
-            
-            </header>
-
-            <section class="conteudo">
+			<section id="conteudo">
 				<div>
 					<h2>Sobre mim...</h2>
-					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum velit debitis, iste accusamus iusto a aliquam quae aut ipsa magnam dolorum, vero cumque rem maxime delectus laboriosam natus nihil atque consectetur eveniet, repudiandae adipisci ipsam harum. Saepe inventore unde autem necessitatibus ipsam pariatur animi placeat voluptatum quisquam. Possimus officiis, laborum impedit totam iusto excepturi vero facilis, voluptate, omnis quas explicabo esse aliquid nostrum nemo neque. Natus laudantium provident sed assumenda, nemo corrupti, quia cumque, facere optio adipisci mollitia. Rerum ipsum maxime quod, tenetur illum aut! Assumenda quae sapiente minus nesciunt exercitationem veritatis fugit porro accusamus quis libero. Fugiat, nobis cupiditate.</p>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa adipisci animi reiciendis aut nam blanditiis molestias tempore nobis? Porro aperiam error fugit est reiciendis quod modi ducimus adipisci voluptatem!</p>
 				</div>
 				<div>
 					<h2>Skills</h2>
@@ -63,25 +49,20 @@ Uma definição de tipo de documento (inglês: document type definition, DTD) é
 				</section>
 			</section>
 
-            <footer>
-                <nav>
-                    <ul>
-                        <li> <a href="https://www.fiap.com.br/"> FIAP </a></li>
-                        <li> <a href="https://www.google.com.br/">GOOGLE</a></li>
-                        <li><a  href="https://github.com">GITHUB</a></li>
-    
-    
-    
-                    </ul>
-                </nav>
-                <p>
-                    Todos os direitos de &copy; 2024 minha página. &#9835
-                </p>
-                
-            </footer>
+			<footer id="rodape">
+				<nav>
+					<ul>
+						<li> <a href="https://www.fiap.com.br" target="_blank"> FIAP </a></li>
+						<li> <a href="https://www.google.com.br" target="_self">GOOGLE</a>  </li>
+						<li> <a href="https://github.com" target="_blank">GITHUB</a>  </li>
+					</ul>
+				</nav>
+				<p>
+					Todos os direitos reservados &copy; 2024 - Minha Pagina.
+				</p>
+			</footer>
 
+		</div>
 
-        </div>
-    
-    </body>
-</HTML>
+	</body>
+</html>
