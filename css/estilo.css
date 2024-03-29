@@ -48,7 +48,12 @@
 
     }
   
-    #menu ul{
+    #menu{
         list-style-type: none;
         text-align: center;
+        font-weight: bold;
+    }
+
+    #sites{
+        font-weight: bold;
     }
