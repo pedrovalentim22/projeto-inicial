@@ -51,13 +51,17 @@
         }
 
     }
-  
-    #menu{
+
+    #conteudo{
+        padding: 1.5px;
+    }
+    #menu ul{
         list-style-type: none;
         text-align: center;
         font-weight: bold;
     }
 
-    #sites{
+    #sites ul{
         font-weight: bold;
     }
+    
