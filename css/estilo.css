@@ -1,9 +1,12 @@
 
-
+    h1, h2{
+        font-family: serif;
+    }
     h1 {
         color: red;
         text-align: center;
     }
+    
 
     #cabecalho{
         background-color: blue;
