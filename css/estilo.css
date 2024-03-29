@@ -1,25 +1,12 @@
 
-/*Este é um comentário de linha!*/
-/*
-    Este é um comentário de Bloco
-!*/
 
-/*Anatomia de uma regra CSS*/
-/*
-    Seletor {
-        Propriedade: Valor;
-    }
-*/
-
-    /*Exemplo de seletores*/
-
-    /*Seletores de tipo*/
     h1 {
         color: red;
         text-align: center;
     }
 
     #cabecalho{
+        background-color: blue;
         background-image: url("../img/img-01-banner-1280×640.png");
         background-repeat: no-repeat;
         background-size: contain;
@@ -28,12 +15,8 @@
     }
 
 
-    /*Seletores de classe*/
+   
     .link {
-        /* font-size: 24%; */
-        /* font-size: 24em; */
-        /* font-size: 24rem; */
-        /* font-size: 24vw; */
         border: 2px solid #ff0000;
         display: inline-block;
         margin: 0 2%;
@@ -46,13 +29,13 @@
             background-color: rgba(255, 0, 0, 0.500);
         }
 
-        /*Nesting elements*/
+        
         a {
             display: inline-block;
             text-decoration: none;
             color: #000;
         
-            /*Nesting elements*/
+           
             img{
                 display: inline-block;
                 width: 25%;
@@ -62,7 +45,6 @@
 
     }
   
-    /*Seletores de ID*/
     #menu ul{
         list-style-type: none;
         text-align: center;
