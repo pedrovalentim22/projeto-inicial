@@ -63,7 +63,7 @@
         font-weight: bold;
     }
     #rodape{
-        border-top: 2px red;
+        border-top: 2px solid red;
     }
 
     #sites ul{
